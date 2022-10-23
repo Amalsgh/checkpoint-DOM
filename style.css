@@ -1,0 +1,223 @@
+
+
+
+
+
+/*Nav part*/
+.navigation {
+    display: flex;
+    justify-content: space-between;
+
+}
+.log {
+    height: 200px;
+    width: 300px;
+    
+    
+    
+}
+
+
+h2 {
+    color: green;
+    font-size: 40px;
+    cursor: pointer;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.d-flex {
+    margin-top: 20px;
+    margin-right: 30px;
+    height: 50px;
+    
+}
+
+.form-control me-2 input {
+    width: 400px;
+}
+.d-flex input {
+    width: 250px;
+    text-align: center;
+}
+/*Main Part*/
+.boutton {
+    justify-content: flex-end;
+    margin-left: 1000px;
+}
+button {
+    color: #fff;
+    border: 2px solid #fff;
+    background-color: rgb(248, 207, 131);
+    border-radius: 2%;
+}
+.pnn {
+    margin-left: 90%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.panierdachat {
+    margin-left: 79%
+}
+.panierdachat img{
+    height: 30px;
+    width: 300px;
+    justify-content: end;
+    margin-top: 20px;
+}
+h1 {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: green;
+    letter-spacing: 20px;
+    
+}
+
+.catalogue {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 9%;
+    margin-right: 9%;
+    cursor: pointer;
+    
+}
+.catalogue img {
+    padding: 5%;
+    border-radius: 2%;
+}
+h5 {
+    text-align: center;
+
+}
+.card-text {
+    text-align: center;
+}
+.price {
+    margin-left: 47%;
+}
+
+.card {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.card:hover {
+    box-shadow: 0px 0px 15px 0px;
+}
+h3 {
+    color: orange;
+    text-align: center;
+}
+.pagination {
+    justify-content: end;
+    
+}
+.ajouter {
+    background-color: grey;
+    border: 2px solid #fff;
+    border-radius: 2%;
+}
+
+/*partie panier*/ 
+.icones {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 10%;
+    cursor: pointer;
+    margin-bottom: 5%;
+}
+
+
+
+.card-header {
+    text-align: center;
+    font-weight: bolder;   
+}
+
+.achat {
+    
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 5%;
+    
+    
+}
+
+
+
+
+
+
+.titre {
+    color: orange;
+    text-align: center;
+    font-weight: bolder;
+    font-style: oblique;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: x-large;
+}
+#total-price {
+    margin-left: 45%;
+}
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*footer part*/
+.final {
+    background-color: beige;
+    display: flex;
+    margin-top: 20px;
+}
+.adres {
+    margin-right: 300px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 350px;
+
+}
+.adres img {
+    height: 200px;
+    margin-bottom: 20px;
+    
+}
+.fin {
+    margin-left: 150px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.numéro {
+    display: flex;
+    margin-left: 100px;
+}
+.whats {
+    display: flex;
+    margin-left: 100px;
+
+}
+.adresse {
+    display: flex;
+    margin-left: 100px;
+
+}
+.images {
+    display: flex;
+    cursor: pointer;
+    margin-left: 150px;
+    
+    
+}
