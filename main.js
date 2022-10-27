@@ -1,7 +1,7 @@
 //declaration
 
 var favs = Array.from(document.querySelectorAll(".bi-heart"));
-var cards = Array.from(document.querySelectorAll(".card mb-3"));
+var cards = Array.from(document.querySelectorAll(".card"));
 var deleteBtns = Array.from(document.querySelectorAll(".bi-trash"));
 var plusBtns = Array.from(document.querySelectorAll(".bi-bag-plus"));
 var minusBtns = Array.from(document.querySelectorAll(".bi-bag-dash"));
@@ -18,10 +18,11 @@ for (let fav of favs){
     })
 }
  //Delete 
- for (let i in deleteBtns) {
+ for (let i  in cards ) {
     deleteBtns[i].addEventListener("click", function() {
         cards[i].remove();
         total();
+        
 
     });
  }
